@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BianYuanJianCeDib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/BianYuanJianCeDib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\我的总文件夹\田佳璐的程序代码\边缘检测1\BianYuanJianCeDib.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/BianYuanJianCeDib.pdb" /debug /machine:I386 /out:"Debug/BianYuanJianCeDib.exe" /pdbtype:sept 
+".\Debug\BianYuanJianCeDib.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC1.tmp"
+<h3>Output Window</h3>
+Compiling...
+BianYuanJianCeDib.cpp
+Linking...
+BianYuanJianCeDib.obj : error LNK2001: unresolved external symbol "public: __thiscall CDib::CDib(void)" (??0CDib@@QAE@XZ)
+BianYuanJianCeDib.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CDib::~CDib(void)" (??1CDib@@UAE@XZ)
+BianYuanJianCeDib.obj : error LNK2001: unresolved external symbol "public: unsigned long __thiscall CDib::GetDibWidthBytes(void)" (?GetDibWidthBytes@CDib@@QAEKXZ)
+BianYuanJianCeDib.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall CDib::GetHeight(void)" (?GetHeight@CDib@@QAEIXZ)
+BianYuanJianCeDib.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall CDib::GetWidth(void)" (?GetWidth@CDib@@QAEIXZ)
+BianYuanJianCeDib.obj : error LNK2001: unresolved external symbol "public: unsigned char * __thiscall CDib::GetData(void)" (?GetData@CDib@@QAEPAEXZ)
+nafxcwd.lib(thrdcore.obj) : error LNK2001: unresolved external symbol __endthreadex
+nafxcwd.lib(thrdcore.obj) : error LNK2001: unresolved external symbol __beginthreadex
+libcd.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/BianYuanJianCeDib.exe : fatal error LNK1120: 9 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BianYuanJianCeDib.exe - 10 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
